@@ -95,19 +95,12 @@ Step 2 — Run
 ./billing
 
 📌 Program Menu (Screenshot Style)
+
 <img width="239" height="137" alt="image" src="https://github.com/user-attachments/assets/53932b75-b965-4b38-a7f7-f17457576cd6" />
 
 📈 Sample Output
-Enter customer name: Ram
-How many items? 2
-Item 1 name: Soap
-Price: 25
-Qty: 2
-Item 2 name: Oil Packet
-Price: 120
-Qty: 1
 
-Added! ID = 1  Total = 170.00
+<img width="188" height="166" alt="image" src="https://github.com/user-attachments/assets/c6364a61-697c-418c-b73d-c8d5534894c3" />
 
 📚 Learning Concepts Used
 ✔ Structures in C
