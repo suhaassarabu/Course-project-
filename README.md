@@ -1,2 +1,2 @@
-# Course-project-
+# Course-project
 course project
