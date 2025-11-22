@@ -95,17 +95,7 @@ Step 2 — Run
 ./billing
 
 📌 Program Menu (Screenshot Style)
------------------------------
- Customer Billing System
------------------------------
-1. Add Customer
-2. Show Customers
-3. Update Customer
-4. Delete Customer
-5. Save Data
-6. Exit
------------------------------
-Enter choice:
+<img width="239" height="137" alt="image" src="https://github.com/user-attachments/assets/53932b75-b965-4b38-a7f7-f17457576cd6" />
 
 📈 Sample Output
 Enter customer name: Ram
