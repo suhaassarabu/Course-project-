@@ -87,13 +87,14 @@ int main(){
     loadFromFile(); // load existing data
     int ch;
     do{
-        printf("\n1.Add 2.Show 3.Update 4.Delete 5.Save 6.Exit\nChoice: ");
+        printf("\n1.Add Customer\n2.Show Customer\n3.Update Customer\n4.Delete Customer\n5.Save Customer\n6.Exit\nChoice: ");
         scanf("%d",&ch);
         if(ch==1) addCustomer();
         else if(ch==2) showCustomers();
         else if(ch==3) updateCustomer();
         else if(ch==4) deleteCustomer();
-        else if(ch==5) saveToFile();
+        else if(ch==5) saveToFile(); 
     }while(ch!=6);
     return 0;
+
 }
