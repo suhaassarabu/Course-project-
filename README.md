@@ -1,6 +1,7 @@
 # Course-project
-course project
+
 📘 Customer Billing System in C
+
 Abstract
 
 This project is a C-based Customer Billing System that uses binary file handling to store and manage customer billing records.
