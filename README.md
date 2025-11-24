@@ -131,13 +131,28 @@ Save
 
 Load
 
-Output Photos
-📌 Main Menu
-Add here:
-![Main Menu](images/mainmenu.png)
+Conclusion
 
-📌 Add Customer
-![Add Customer](images/addcustomer.png)
+This Customer Billing System demonstrates the effective use of:
+
+Structures
+
+File Handling
+
+Arrays
+
+CRUD operations
+
+Menu-driven programming
+
+It is ideal for academic projects and learning resource management in C.
+
+Output Photos
+=> Main Menu
+<img width="460" height="154" alt="Screenshot 2025-11-21 161033" src="https://github.com/user-attachments/assets/073c3249-6574-4875-a702-fa60b3c3e3cf" />
+
+=> Add Customer
+
 
 📌 Display Customers
 ![Display Customers](images/display.png)
@@ -154,21 +169,3 @@ Add here:
 📌 After Delete
 ![After Delete](images/afterdelete.png)
 
-
-Replace the image names with your actual uploaded file names.
-
-Conclusion
-
-This Customer Billing System demonstrates the effective use of:
-
-Structures
-
-File Handling
-
-Arrays
-
-CRUD operations
-
-Menu-driven programming
-
-It is ideal for academic projects and learning resource management in C.
