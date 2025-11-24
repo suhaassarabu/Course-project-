@@ -2,15 +2,15 @@
 
 📘 Customer Billing System in C
 
-### **Abstract**
+## **Abstract**
 
 This project is a C-based Customer Billing System that uses binary file handling to store and manage customer billing records.
 The system allows users to add customers, store item details, calculate totals, view all customers, update, delete, and save data into a persistent binary file.
 
 It serves as a simple demonstration of file operations, arrays, and structure-based data management.
 
-Features
-1. Add Customer
+## **Features**
+### **1. Add Customer**
 
 Adds a new customer entry.
 
@@ -26,7 +26,7 @@ Automatically calculates total bill
 
 Saves data in customers.dat.
 
-2. Display Customers
+### **2. Display Customers**
 
 Shows all stored customers in a clean format.
 
@@ -40,13 +40,13 @@ Total Bill
 
 Item-wise breakdown
 
-3. Update Customer
+### **3. Update Customer**
 
 Allows updating the customer name using customer ID.
 
 Modifies the record in memory.
 
-4. Delete Customer
+### **4. Delete Customer**
 
 Deletes a customer’s record by ID.
 
@@ -54,7 +54,7 @@ Shifts remaining records to keep the array clean.
 
 Updates total count.
 
-5. Save to File
+### **5. Save to File**
 
 Saves all customer data to customers.dat in binary format.
 
@@ -64,13 +64,13 @@ Number of customers
 
 Entire array of customer structures
 
-6. Load From File
+### **6. Load From File**
 
 Automatically loads previously saved data at program start using fread().
 
 Allows continuous use of old records.
 
-7. Exit
+### **7. Exit**
 
 Closes the program safely.
 
@@ -101,11 +101,11 @@ fread() → Load records
 
 A menu-driven interface allows the user to continuously interact until exit.
 
-Running the Program
-1. Compile the program
+## **Running the Program**
+### **1. Compile the program**
 gcc main.c -o billing
 
-2. Run the program
+### **2. Run the program**
 ./billing
 
 Files Used
@@ -117,7 +117,7 @@ Automatically created when “Save” is selected.
 
 main.c
 
-Core source code containing:
+### **Core source code containing:**
 
 Add
 
