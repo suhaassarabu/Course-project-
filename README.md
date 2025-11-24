@@ -1,3 +1,173 @@
 # Course-project
 course project
 📘 Customer Billing System in C
+Abstract
+
+This project is a C-based Customer Billing System that uses binary file handling to store and manage customer billing records.
+The system allows users to add customers, store item details, calculate totals, view all customers, update, delete, and save data into a persistent binary file.
+
+It serves as a simple demonstration of file operations, arrays, and structure-based data management.
+
+Features
+1. Add Customer
+
+Adds a new customer entry.
+
+Stores:
+
+Customer ID
+
+Customer Name
+
+Item details (name, price, quantity)
+
+Automatically calculates total bill
+
+Saves data in customers.dat.
+
+2. Display Customers
+
+Shows all stored customers in a clean format.
+
+Displays:
+
+ID
+
+Name
+
+Total Bill
+
+Item-wise breakdown
+
+3. Update Customer
+
+Allows updating the customer name using customer ID.
+
+Modifies the record in memory.
+
+4. Delete Customer
+
+Deletes a customer’s record by ID.
+
+Shifts remaining records to keep the array clean.
+
+Updates total count.
+
+5. Save to File
+
+Saves all customer data to customers.dat in binary format.
+
+Uses fwrite() to store:
+
+Number of customers
+
+Entire array of customer structures
+
+6. Load From File
+
+Automatically loads previously saved data at program start using fread().
+
+Allows continuous use of old records.
+
+7. Exit
+
+Closes the program safely.
+
+How It Works
+
+Each customer is stored using:
+
+typedef struct {
+    char name[30];
+    float price;
+    int qty;
+} Item;
+
+typedef struct {
+    int id;
+    char name[30];
+    Item items[20];
+    int itemCount;
+    float total;
+} Customer;
+
+
+Data is stored in binary format in customers.dat using:
+
+fwrite() → Save records
+
+fread() → Load records
+
+A menu-driven interface allows the user to continuously interact until exit.
+
+Running the Program
+1. Compile the program
+gcc main.c -o billing
+
+2. Run the program
+./billing
+
+Files Used
+customers.dat
+
+Stores all customer details in binary format.
+
+Automatically created when “Save” is selected.
+
+main.c
+
+Core source code containing:
+
+Add
+
+Show
+
+Update
+
+Delete
+
+Save
+
+Load
+
+Output Photos
+📌 Main Menu
+Add here:
+![Main Menu](images/mainmenu.png)
+
+📌 Add Customer
+![Add Customer](images/addcustomer.png)
+
+📌 Display Customers
+![Display Customers](images/display.png)
+
+📌 Update Customer
+![Update Customer](images/update.png)
+
+📌 Delete Customer
+![Delete Customer](images/delete.png)
+
+📌 Before Delete
+![Before Delete](images/beforedelete.png)
+
+📌 After Delete
+![After Delete](images/afterdelete.png)
+
+
+Replace the image names with your actual uploaded file names.
+
+Conclusion
+
+This Customer Billing System demonstrates the effective use of:
+
+Structures
+
+File Handling
+
+Arrays
+
+CRUD operations
+
+Menu-driven programming
+
+It is ideal for academic projects and learning resource management in C.
