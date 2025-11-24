@@ -175,6 +175,7 @@ Output Photos
 
 => After Delete
 
-<img width="159" height="149" alt="image" src="https://github.com/user-attachments/assets/ebad50a5-d991-48f7-a821-a705c9901961" />
+<img width="160" height="135" alt="image" src="https://github.com/user-attachments/assets/e0dbf5e0-5148-4ed6-821d-a5d2e49969bd" />
+
 
 
