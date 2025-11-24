@@ -171,7 +171,10 @@ Output Photos
 
 => Before Delete
 
+<img width="252" height="192" alt="image" src="https://github.com/user-attachments/assets/1fe0c437-9c22-4184-9c34-6a3382bbcb94" />
 
-📌 After Delete
-![After Delete](images/afterdelete.png)
+=> After Delete
+
+<img width="159" height="149" alt="image" src="https://github.com/user-attachments/assets/ebad50a5-d991-48f7-a821-a705c9901961" />
+
 
