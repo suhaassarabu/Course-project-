@@ -149,6 +149,7 @@ It is ideal for academic projects and learning resource management in C.
 
 Output Photos
 => Main Menu
+
 <img width="460" height="154" alt="Screenshot 2025-11-21 161033" src="https://github.com/user-attachments/assets/073c3249-6574-4875-a702-fa60b3c3e3cf" />
 
 => Add Customer
