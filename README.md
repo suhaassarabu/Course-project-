@@ -148,24 +148,29 @@ Menu-driven programming
 It is ideal for academic projects and learning resource management in C.
 
 Output Photos
+
 => Main Menu
 
 <img width="460" height="154" alt="Screenshot 2025-11-21 161033" src="https://github.com/user-attachments/assets/073c3249-6574-4875-a702-fa60b3c3e3cf" />
 
 => Add Customer
 
+<img width="226" height="298" alt="image" src="https://github.com/user-attachments/assets/29e147f0-2d39-40e3-af4f-1b89b03848ff" />
 
-📌 Display Customers
-![Display Customers](images/display.png)
+=> Display Customers
 
-📌 Update Customer
-![Update Customer](images/update.png)
+<img width="222" height="194" alt="image" src="https://github.com/user-attachments/assets/789dc2e5-6416-485a-a2ee-685947ed58be" />
 
-📌 Delete Customer
-![Delete Customer](images/delete.png)
+=> Update Customer
 
-📌 Before Delete
-![Before Delete](images/beforedelete.png)
+<img width="218" height="169" alt="image" src="https://github.com/user-attachments/assets/eef59576-f6b9-4214-8344-09fc013f6049" />
+
+=> Delete Customer
+
+<img width="173" height="147" alt="image" src="https://github.com/user-attachments/assets/74b01cc7-db8d-4819-bc20-acc3dadfdc0e" />
+
+=> Before Delete
+
 
 📌 After Delete
 ![After Delete](images/afterdelete.png)
