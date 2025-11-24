@@ -147,7 +147,7 @@ Menu-driven programming
 
 It is ideal for academic projects and learning resource management in C.
 
-Output Photos
+###**Output Photos**
 
 => Main Menu
 
