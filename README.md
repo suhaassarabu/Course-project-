@@ -1,6 +1,6 @@
 # Course-project
 
-📘 Customer Billing System in C
+## Customer Billing System in C
 
 ## **Abstract**
 
